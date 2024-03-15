@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="encriptador.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+
+<body>
+    <header>
+        <div id="Bienvenida"><h1>&#9734 Encriptador</h1>
+            <p id="saludo">"Guarda tus secretos con confianza: ¡Encriptalos y   protege tu privacidad!"</p>
+        </div>
+        <nav>
+            <ul>
+                <li> <a href="index.html">&#10148 Home</a></li>
+                <li> <a href="encriptador.html"> &#10148 Encriptar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+
+        <div class="Informacion">
+            <h6>&#9888 Ingrese solo letras minúsculas y sin acento.</h6>
+        </div>
+            <textarea class="textarea" cols="30" rows="10" placeholder="(Ingrese el texto aqui)"></textarea>
+
+            <div class="Botones">
+                <button class="Encriptacion" onclick="btnEncriptar()">Encriptar</button>
+                <button class="desencriptación" onclick="btnDesencriptar()">Desencriptar</button>
+        
+        </section>
+        <section id="casa2">
+                <textarea class="mensaje" cols="20" rows="10"></textarea>
+                <div class="btcopiar">
+                    <button class="Copiar">Copiar</button>
+                </div>
+        </section>
+    </main>
+    <script src="Script.js"></script>
+    <footer>
+        <p> &copy Copyright Encripter WEB - 2024</p></footer>
+</body>
+</html>
+
